@@ -4,7 +4,7 @@
 }
 
 body {
-    /* background-image: url("./images/station.jpg"); */
+    background-image: url("./images/station.jpg");
     background-size: cover;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +41,5 @@ button:hover {
 }
 
 #counts {
-    display: inline;
     color: red;
 }

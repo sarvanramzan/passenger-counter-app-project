@@ -39,3 +39,8 @@ button:hover {
 #save-btn {
     background: #7ae582;
 }
+
+#counts {
+    display: inline;
+    color: red;
+}

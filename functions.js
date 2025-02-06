@@ -7,11 +7,9 @@ function increment() {
 }
 
 function save() {
-    // local variable
-    let countStr = count + " - ";
+    counts.textContent += count + " - ";
     // reassign variable
     count = 0;
     // html dom
-    saveEl.textContent += countStr;
     countEl.textContent = count;
 }

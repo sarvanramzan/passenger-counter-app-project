@@ -1,0 +1,41 @@
+/* helper style - css box model */
+.border-blue {
+    border: 1px solid blue;
+}
+
+body {
+    /* background-image: url("./images/station.jpg"); */
+    background-size: cover;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* user-select: none; */
+}
+
+#count-el {
+    font-size: 40px;
+}
+
+button {
+    padding: 10px 12px;
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    background: none;
+    font-family: inherit;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #0081a7;
+}
+
+#increment-btn {
+    background: #e63946;
+}
+
+#save-btn {
+    background: #7ae582;
+}
